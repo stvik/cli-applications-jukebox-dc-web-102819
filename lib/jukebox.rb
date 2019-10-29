@@ -22,3 +22,8 @@ def play(songs)
   if input.between?(1,9)
     puts "Playing #{songs[input-1]}"
   elsif songs.include?(input)
+    puts "Playing #{songs[input-1]}"
+  else
+    puts "Invalid input, please try again."
+  end
+end
