@@ -31,3 +31,12 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+def run
+  puts "Please enter a command:"
+  selection = gets.strip
+  while selection == 'exit' do
+    
+  
+  
+  
