@@ -11,8 +11,7 @@ end
 def list(songs)
   i = 0
   while i < songs.length() do
-    songs[i] = "#{i+1}. #{songs[i]}"
+    puts "#{i+1}. #{songs[i]}"
     i += 1
   end
-  songs
 end
