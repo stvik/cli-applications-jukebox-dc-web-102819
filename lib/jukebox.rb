@@ -21,4 +21,4 @@ def play(songs)
   input = gets.strip
   if input.between?(1,9)
     puts "Playing #{songs[input-1]}"
-  elsif input.find(songs)
+  elsif songs.include?(input)
