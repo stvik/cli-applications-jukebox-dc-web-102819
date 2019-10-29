@@ -44,6 +44,7 @@ def run(songs)
     elsif selection == "help"
       help
     elsif selection == "exit"
+      exit_jukebox
       break
     end
   end
