@@ -22,7 +22,7 @@ def play(songs)
   if input.to_i.between?(1,9)
     puts "Playing #{songs[input.to_i-1]}"
   elsif songs.include?(input)
-    puts "Playing #{songs[input-1]}"
+    puts "Playing #{input}"
   else
     puts "Invalid input, please try again."
   end
